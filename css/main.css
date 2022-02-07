@@ -20,8 +20,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 button {
@@ -79,7 +81,7 @@ header.header h2 {
 
 .container .cards {
   width: 100%;
-  margin-top: -2rem;
+  margin-top: -10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
